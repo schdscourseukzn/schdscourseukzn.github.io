@@ -201,85 +201,67 @@ Below is an outline of the current plan for course topics and schedule. It is in
 
 <!-- <h2>In-person Lectures</h2> -->
 
-<table id="inpersonw1">
-  <tr>
-    <th colspan="7" style="background-color: #304C75;"><b><b><b><b> The Week Schedule</b></b></b></b></th>
-  </tr>
-  <tr>
-    <th>Time</th>
-    <th><b>Monday 15/04</b></th>
-    <th><b>Tuesday 16/04</b></th>
-    <th><b>Wednesday 17/04</b></th>
-    <th><b>Thursday 18/04</b></th>
-    <th><b>Friday 19/04</b></th>
-  </tr>
-  <!-- <tr>
-    <td><b>Facilitator(s)</b></td>
-    <td>Santiago, Sandra</td>
-    <td>Santiago, Sandra, Mandla</td>
-    <td> Santiago, Sandra, Mohanad </td>
-    <td>Santiago, Sandra, Mohanad</td>
-    <td>Santiago, Sandra, Mohanad</td>
-    <td>Santiago, Sandra, Mohanad</td>
-  </tr> -->
-
-   <tr>
-    <td><b> 8:00-9:00</b></td>
-    <td> -Arrival and Registration [8:00 - 8:30] </b> - Pre-Survey [8:30 - 9:00]</td>
-    <td> Arrival and Registration</td>
-    <td> Arrival and Registration</td>
-    <td> Arrival and Registration</td>
-    <td> Arrival and Registration </td>
-  </tr>
-  <tr>
-    <td><b>9:00-10:30</b></td>
-    <td> Introduction to the course (HM) </b> Pre-knowledge test </b> Data wrangling </td>
-    <td>String Processing </td>
-    <td>Introduction to ggplot2</td>
-    <td> Maps </td>
-    <td> Swine Flu case study (Project) </td>
-  </tr>
-  <tr>
-    <td class="tg-amwm"><b>10:00-10:30</b></td>
-    <td class="tg-0lax">Break</td>
-    <td class="tg-0lax">Break</td>
-    <td class="tg-0lax">Break</td>
-    <td class="tg-0lax">Break</td>
-    <td class="tg-0lax">Break</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm"><b>10:30-12:30</b></td>
-    <td class="tg-0lax">Introductory concepts- Health systems- including goals and functions (OM) [ 10:30 - 11:30] - Comparative health systems (SN) [11:30 - 12:30] - Discussion and allocation of tasks [12:30 - 13:00]</td>
-    <td class="tg-0lax">Health systems building blocks Stewardship and Information System (SN) [10:30 - 12:30] - Discussion [12:30 - 13:00]</td>
-    <td class="tg-0lax">Quality for health systems (OM) [10:30 - 12:30] - Discussion [12:30 - 13:00]</td>
-    <td class="tg-0lax">Leadership and management (AH) [10:30 - 12:30] - Discussion [12:30 - 13:00]</td>
-    <td class="tg-0lax">Causal inference continued (TB)</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm"><b>13:00-14:00</b></td>
-    <td class="tg-0lax">Lunch</td>
-    <td class="tg-0lax">Lunch</td>
-    <td class="tg-0lax">Lunch</td>
-    <td class="tg-0lax">Lunch</td>
-    <td class="tg-0lax">Lunch</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm"><b>14:00-15:00</b></td>
-    <td class="tg-0lax">Group tasks</td>
-    <td class="tg-0lax">Health systems building blocks- HR Medicines and supplies (SS or AH)</td>
-    <td class="tg-0lax">Group tasks Quality</td>
-    <td class="tg-0lax">Evaluation of health systems (AH)</td>
-    <td class="tg-0lax">Practical task</td>
-  </tr>
-  <tr>
-    <td class="tg-amwm"><b>15:00-16:30</b></td>
-    <td class="tg-0lax">Group tasks and feedback</td>
-    <td class="tg-0lax">Health system performance (SS or AH)</td>
-    <td class="tg-0lax">Group tasks and feedback</td>
-    <td class="tg-0lax">Feedback from class</td>
-    <td class="tg-0lax"></td>
-  </tr>
-  
+<table border="1">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Monday, 4/15</th>
+      <th>Tuesday, 4/16</th>
+      <th>Wednesday, 4/17</th>
+      <th>Thursday, 4/18</th>
+      <th>Friday, 4/19</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>8:00 – 9:00 am</td>
+      <td colspan="5">Arrival and Registration Pre-Survey</td>
+    </tr>
+    <tr>
+      <td>9:00-10:30 am</td>
+      <td>Introduction to course<br>Dr. Gabriel Kallah-Dagadu<br>9:00 – 9:10<br>Pre-knowledge test<br>Dr. Mohanad Mohammed<br>9:40 – 10:30<br>Data wrangling*</td>
+      <td>String Processing<br>Dr. Mohanad Mohammed<br>9:10 – 9:40</td>
+      <td>Introduction to ggplot2<br>Dr. Mohanad Mohammed<br>Data wrangling*<br>Dr. Gabriel Kallah-Dagadu</td>
+      <td>Maps<br>Swine Flu case study (Project)<br>Dr. Mohanad Mohammed</td>
+      <td>COVID-19 case study (Project)<br>Participants</td>
+    </tr>
+    <tr>
+      <td>10:30-10:45 am</td>
+      <td colspan="5">Break</td>
+    </tr>
+    <tr>
+      <td>10:45-12:00 pm</td>
+      <td>Reshaping data, combining tables<br>Dr. Gabriel Kallah-Dagadu</td>
+      <td>String Processing<br>Dr. Mohanad Mohammed</td>
+      <td>Visualization principles<br>Dr. Gabriel Kallah-Dagadu</td>
+      <td>Vaccines case study<br>Dr. Gabriel Kallah-Dagadu</td>
+      <td>Presentations and Discussion*<br>Dr. Gabriel Kallah-Dagadu</td>
+    </tr>
+    <tr>
+      <td>12:00-1:00 pm</td>
+      <td colspan="5">Lunch</td>
+    </tr>
+    <tr>
+      <td>1:00-2:30 pm</td>
+      <td>Advanced data wrangling, Dates, Times, web scraping<br>Dr. Mohanad Mohammed</td>
+      <td>String splitting<br>Dr. Gabriel Kallah-Dagadu</td>
+      <td>Visualization principles continued<br>Dr. Gabriel Kallah-Dagadu</td>
+      <td>Vaccines case study<br>Dr. Gabriel Kallah-Dagadu</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2:30-2:45 pm</td>
+      <td colspan="5">Break</td>
+    </tr>
+    <tr>
+      <td>2:45-4:00 pm</td>
+      <td>Practical</td>
+      <td>Practical</td>
+      <td>Practical</td>
+      <td>Practical</td>
+      <td>Closing Ceremony, 6pm closing dinner</td>
+    </tr>
+  </tbody>
 </table>
 
 <br>
