@@ -124,7 +124,7 @@ title: Statistical Computing for Health Data Science
 
 <h1 style="background-color:white; color:black; text-align: center;"> Data Science Initiative for Africa (DSI-A) Training Programme </h1>
 
-<h2 style="background-color:white; color:black; text-align: center;"> A Short Course in Statistical Computing for Health Data Science with a Focus on the Methods </h2>
+<h2 style="background-color:white; color:black; text-align: center;"> A Short Course in Statistical Computing for Health Data Science </h2>
 
 
 <h3 style="background-color:white; color:Red; text-align: center;"> All lectures will start from 9:00 AM - 4:30 PM. </h3> <br>
@@ -133,14 +133,15 @@ title: Statistical Computing for Health Data Science
 <!-- <h4 style="background-color:white; color:black; text-align: left;"> Please use the following link: <a href="https://ukzn.zoom.us/j/98032587955?pwd=TnkzUHpvc0txMTA1WWViNVZseTVEdz09" target="_blank"><span style="text-align:center">ZOOM LINK</span></a>. </h4> -->
 
 <h2 style="background-color:white; color:black; text-align: left;"> Dates: Monday, 15th – Friday, 19th April 2024 </h2> 
-<h4 style="background-color:white; color:black; text-align: left;"> Venue: <a href="https://www.southernsun.com/southern-sun-elangeni-maharani" target="_blank"><span style="text-align:center">Elangeni Hotel</span></a>, 63 Snell Parade, North Beach, Durban, 4001. </h4>
-<h4 style="background-color:white; color:black; text-align: left;"> Virtual Link: <a href="https://www.google.com/url?q=https://ukzn.zoom.us/j/93891463089?pwd%3DeFN3ZjR4eUNJLzZwVEhmRVZXeHJxQT09&sa=D&source=calendar&usd=2&usg=AOvVaw1yN0XnFQ1sfYfzHrpjoIa6" target="_blank"><span style="text-align:center">Join Lectures</span></a> </h4> <br>
+
+<h4 style="background-color:white; color:black; text-align: left;"> Venue: <a href="https://www.thegatewayhotel.co.za/" target="_blank"><span style="text-align:center">Gateway Hotel</span></a>, Cnr Centenary Blvd & Twilight Dr, Umhlanga Ridge, Umhlanga, Durban, KwaZulu Natal. </h4>
+<!--<h4 style="background-color:white; color:black; text-align: left;"> Virtual Link: <a href="https://www.google.com/url?q=https://ukzn.zoom.us/j/93891463089?pwd%3DeFN3ZjR4eUNJLzZwVEhmRVZXeHJxQT09&sa=D&source=calendar&usd=2&usg=AOvVaw1yN0XnFQ1sfYfzHrpjoIa6" target="_blank"><span style="text-align:center">Join Lectures</span></a> </h4> <br>-->
 
 <!-- <a href="https://www.southernsun.com/southern-sun-elangeni-maharani" target="_blank"><span style="text-align:center">Elangeni Hotel</span></a>, 63 Snell Parade, North Beach, Durban, 4001. -->
 
 <h2 style="background-color:white; color:black; text-align: center;"> Program Schedule </h2>
 
-Below is an outline of the current plan for course topics and schedule. It is intended to serve as guidance, the specific topics and schedule may change at the decision of the course instructional staff. You can download the program schedule by clicking <a href="https://hscourseukzn.github.io/PDFLectures/Health systems programme_final.pdf" download> here </a>. <br>
+Below is an outline of the current plan for course topics and schedule. It is intended to serve as a guideline; the specific topics and schedule may change at the decision of the course instructional facilitators. You can download the program schedule by clicking <a href="https://schdscourseukzn.github.io/PDFLectures/Health systems programme_final.pdf" download> here </a>. <br>
 
 
 
