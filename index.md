@@ -274,7 +274,71 @@ Below is an outline of the current plan for course topics and schedule. It is in
 
 
 
-
+<table id="inpersonw2">
+  <tr>
+    <th colspan="6" style="background-color: #304C75;"><b><b><b><b>Week 2</b></b></b></b></th>
+  </tr>
+  <tr>
+    <th class="tg-amwm"><b>Time</b></th>
+    <th class="tg-amwm"><b>Monday 28/08</b></th>
+    <th class="tg-amwm"><b>Tuesday 29/08</b></th>
+    <th class="tg-amwm"><b>Wednesday 30/08</b></th>
+    <th class="tg-amwm"><b>Thursday 31/08</b></th>
+    <th class="tg-amwm"><b>Friday 01/09</b></th>
+  </tr>
+  <!-- <tr>
+    <td><b>Facilitator(s)</b></td>
+    <td>Santiago, Sandra, Mandla, Kennedy</td>
+    <td>Santiago, Sandra, Mandla, Kennedy</td>
+    <td> Santiago, Sandra, Mandla, Kennedy </td>
+    <td>Santiago, Sandra, Mohanad, Gabriel </td>
+    <td>Santiago, Sandra, Mohanad, Gabriel </td>
+  </tr> -->
+  
+  
+  
+  <tr>
+    <td class="tg-amwm"><b>8:30-10:00</b></td>
+    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Dimension reduction: PCA</td>
+    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Discovery Clustering , co-occurrence</td>
+    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Prediction: Prediction: SVM, LDA</td>
+    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Prediction: Boosting</td>
+    <td class="tg-0lax">Wrap up and closure</td>
+  </tr>
+  <tr>
+    <td class="tg-amwm"><b>10:00-11:00</b></td>
+    <td class="tg-0lax">Break</td>
+    <td class="tg-0lax">Break</td>
+    <td class="tg-0lax">Break</td>
+    <td class="tg-0lax">Break</td>
+    <td class="tg-0lax">Break</td>
+  </tr>
+  <tr>
+    <td class="tg-amwm"><b>11:00-13:00</b></td>
+    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Dimension reduction: LCA</td>
+    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Discovery Clustering, co-occurrence </td>
+    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Prediction Decision trees, random plots </td>
+    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Prediction Neural Networks</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-amwm"><b>13:00-14:00</b></td>
+    <td class="tg-0lax">Lunch</td>
+    <td class="tg-0lax">Lunch</td>
+    <td class="tg-0lax">Lunch</td>
+    <td class="tg-0lax">Lunch</td>
+    <td class="tg-0lax">Lunch</td>
+  </tr>
+  <tr> 
+    <td class="tg-amwm"><b>14:00-16:00</b></td>
+    <td class="tg-0lax">Practical work</td>
+    <td class="tg-0lax">Practical work</td>
+    <td class="tg-0lax">Practical work</td>
+    <td class="tg-0lax">Practical work</td>
+    <td class="tg-0lax"></td>
+  </tr>
+  
+</table>
 
 
 
