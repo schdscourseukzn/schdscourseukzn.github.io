@@ -141,7 +141,7 @@ title: Statistical Computing for Health Data Science
 
 <h2 style="background-color:white; color:black; text-align: center;"> Program Schedule </h2>
 
-Below is an outline of the current plan for course topics and schedule. It is intended to serve as a guideline; the specific topics and schedule may change at the decision of the course instructional facilitators. You can download the program schedule by clicking <a href="https://schdscourseukzn.github.io/PDFLectures/Health systems programme_final.pdf" download> here </a>. <br>
+Below is an outline of the current plan for course topics and schedule. It is intended to serve as a guideline; the specific topics and schedule may change at the decision of the course instructional facilitators. You can download the program schedule by clicking <a href="https://schdscourseukzn.github.io/PDFLectures/Statistical_Computing_Programme_Final.pdf" download> here </a>. <br>
 
 
 
