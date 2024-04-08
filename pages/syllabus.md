@@ -4,10 +4,9 @@ title: Syllabus
 ---
 
 <h3> Course Description </h3>
-<p align="justify"> This course will introduce trainees to concepts of health systems and its applicability to health data science. Part two of the course will look at linking these concepts and analysis of data. 
-
-  <!-- In <b>week 1</b>, participants will be introduced to several deep learning methods and techniques in a sequence of lectures and practical exercises involving computer applications using relevant real data sets in the health domain.
-
+<p align="justify"> This course will introduce trainees to concepts of statistical computing in data manipulation and preparation and its applicability to health data science. Participants will be introduced to several data science methods and techniques in a sequence of lectures and practical exercises involving computer applications using relevant real data sets in the health domain.
+  
+<!--
   In <b>week 2</b> participants will be engage in advanced deep learning techniques with real-life applications in public health. </p>
 
 <h3> Learning Objectives </h3>
