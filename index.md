@@ -225,10 +225,10 @@ Below is an outline of the current plan for course topics and schedule. It is in
     <tr>
       <td>9:00-10:30 am</td>
       <td>[9:00 – 9:10] Introduction to course<br> [9:10 – 9:40] Pre-knowledge test<br>[9:40 – 10:30] Data wrangling</td>
-      <td>String Processing<br>Dr. Mohanad Mohammed<br></td>
-      <td>Introduction to ggplot2<br>Dr. Mohanad Mohammed<br>Data wrangling*<br>Dr. Gabriel Kallah-Dagadu</td>
-      <td>Maps<br>Swine Flu case study (Project)<br>Dr. Mohanad Mohammed</td>
-      <td>COVID-19 case study (Project)<br>Participants</td>
+      <td>String Processing</td>
+      <td>Introduction to ggplot2</td>
+      <td>Maps</td>
+      <td>wine Flu case study (Project)</td>
     </tr>
     <tr>
       <td>10:30-10:45 am</td>
@@ -236,11 +236,11 @@ Below is an outline of the current plan for course topics and schedule. It is in
     </tr>
     <tr>
       <td>10:45-12:00 pm</td>
-      <td>Reshaping data, combining tables<br>Dr. Gabriel Kallah-Dagadu</td>
-      <td>String Processing<br>Dr. Mohanad Mohammed</td>
-      <td>Visualization principles<br>Dr. Gabriel Kallah-Dagadu</td>
-      <td>Vaccines case study<br>Dr. Gabriel Kallah-Dagadu</td>
-      <td>Presentations and Discussion*<br>Dr. Gabriel Kallah-Dagadu</td>
+      <td>Reshaping data, combining tables</td>
+      <td>String Processing</td>
+      <td>Visualization principles</td>
+      <td>Vaccines case study</td>
+      <td>COVID-19 case study (Project)</td>
     </tr>
     <tr>
       <td>12:00-1:00 pm</td>
