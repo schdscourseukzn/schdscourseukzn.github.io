@@ -124,7 +124,7 @@ Below you'll find a list of links to lecture notes and code as well as links to 
 
 
 
-
+<!--
 <h4> Day 1:</h4>
 
 <a href="https://hscourseukzn.github.io/PDFLectures/Health system definition - lecture 1.pdf" download> Health system definition - Prof. O Mahomed </a> <br>
@@ -213,7 +213,7 @@ Below you'll find a list of links to lecture notes and code as well as links to 
 <a href="https://hscourseukzn.github.io/PDFLectures/Prediction - Practical.Rmd" download> Prediction - Practical - Dr. Mohanad </a> <br>
 
 <a href="https://rpubs.com/pmtam/knn"> Tutorial </a> <br>
-
+-->
 
 </body>
 </html>
