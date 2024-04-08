@@ -224,8 +224,8 @@ Below is an outline of the current plan for course topics and schedule. It is in
     </tr>
     <tr>
       <td>9:00-10:30 am</td>
-      <td>Introduction to course<br>Dr. Gabriel Kallah-Dagadu<br>9:00 – 9:10<br>Pre-knowledge test<br>Dr. Mohanad Mohammed<br>9:40 – 10:30<br>Data wrangling*</td>
-      <td>String Processing<br>Dr. Mohanad Mohammed<br>9:10 – 9:40</td>
+      <td>9:00 – 9:10 Introduction to course<br> 9:10 – 9:40 Pre-knowledge test<br>9:40 – 10:30 <br> Data wrangling</td>
+      <td>String Processing<br>Dr. Mohanad Mohammed<br></td>
       <td>Introduction to ggplot2<br>Dr. Mohanad Mohammed<br>Data wrangling*<br>Dr. Gabriel Kallah-Dagadu</td>
       <td>Maps<br>Swine Flu case study (Project)<br>Dr. Mohanad Mohammed</td>
       <td>COVID-19 case study (Project)<br>Participants</td>
