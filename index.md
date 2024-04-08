@@ -232,12 +232,12 @@ Below is an outline of the current plan for course topics and schedule. It is in
     <td> Arrival and Registration </td>
   </tr>
   <tr>
-    <td><b>8:30-10:00</b></td>
-    <td>Welcome, Introduction and Expectations (SN) [8:30 - 9:00] - Introductory concepts- Health (OM) [9:00 - 10:00]</td>
-    <td>Health systems building blocks-Services & Finances (OM)</td>
-    <td>Strengthening Health Systems + Health system resilience and monitoring health system strengthening (SN)</td>
-    <td>Systems thinking (OM)</td>
-    <td> Intro to causal inference (TB) </td>
+    <td><b>9:00-10:30</b></td>
+    <td> Introduction to the course (HM) </b> Pre-knowledge test </b> Data wrangling </td>
+    <td>String Processing </td>
+    <td>Introduction to ggplot2</td>
+    <td> Maps </td>
+    <td> Swine Flu case study (Project) </td>
   </tr>
   <tr>
     <td class="tg-amwm"><b>10:00-10:30</b></td>
