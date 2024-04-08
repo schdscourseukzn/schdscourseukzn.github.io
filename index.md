@@ -203,15 +203,15 @@ Below is an outline of the current plan for course topics and schedule. It is in
 
 <table id="inpersonw1">
   <tr>
-    <th colspan="7" style="background-color: #304C75;"><b><b><b><b>Week 1</b></b></b></b></th>
+    <th colspan="7" style="background-color: #304C75;"><b><b><b><b> The Week Schedule</b></b></b></b></th>
   </tr>
   <tr>
     <th>Time</th>
-    <th><b>Monday 21/08</b></th>
-    <th><b>Tuesday 22/08</b></th>
-    <th><b>Wednesday 23/08</b></th>
-    <th><b>Thursday 24/08</b></th>
-    <th><b>Friday 25/08</b></th>
+    <th><b>Monday 15/04</b></th>
+    <th><b>Tuesday 16/04</b></th>
+    <th><b>Wednesday 17/04</b></th>
+    <th><b>Thursday 18/04</b></th>
+    <th><b>Friday 19/04</b></th>
   </tr>
   <!-- <tr>
     <td><b>Facilitator(s)</b></td>
@@ -222,7 +222,15 @@ Below is an outline of the current plan for course topics and schedule. It is in
     <td>Santiago, Sandra, Mohanad</td>
     <td>Santiago, Sandra, Mohanad</td>
   </tr> -->
-  
+
+   <tr>
+    <td><b> 8:00-9:00</b></td>
+    <td> Arrival and Registration [8:00 - 8:30] - Pre-Survey [8:30 - 9:00]</td>
+    <td> Arrival and Registration</td>
+    <td> Arrival and Registration</td>
+    <td> Arrival and Registration</td>
+    <td> Arrival and Registration </td>
+  </tr>
   <tr>
     <td><b>8:30-10:00</b></td>
     <td>Welcome, Introduction and Expectations (SN) [8:30 - 9:00] - Introductory concepts- Health (OM) [9:00 - 10:00]</td>
