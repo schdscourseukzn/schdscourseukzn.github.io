@@ -278,7 +278,7 @@ Below is an outline of the current plan for course topics and schedule. It is in
 
 
 
-
+<!--
 
 <table id="inpersonw2">
   <tr>
@@ -345,7 +345,7 @@ Below is an outline of the current plan for course topics and schedule. It is in
   </tr>
   
 </table>
-
+-->
 </body>
 </html>
 
