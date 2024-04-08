@@ -298,22 +298,22 @@ Below is an outline of the current plan for course topics and schedule. It is in
   
   <tr>
     <td class="tg-amwm"><b>8:00-9:00</b></td>
-    <td class="tg-0lax">Arrival and Registration [8:00 - 8:30] <br> - Pre-Survey [8:30 - 9:00]</td>
+    <td class="tg-0lax"> [8:00 - 8:30] Arrival and Registration <br> [8:30 - 9:00] Pre-Survey </td>
     <td class="tg-0lax">Arrival and Registration</td>
     <td class="tg-0lax">Arrival and Registration</td>
     <td class="tg-0lax">Arrival and Registration</td>
     <td class="tg-0lax">Arrival and Registration</td>
   </tr>
   <tr>
-    <td class="tg-amwm"><b>8:30-10:00</b></td>
-    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Dimension reduction: PCA</td>
-    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Discovery Clustering , co-occurrence</td>
-    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Prediction: Prediction: SVM, LDA</td>
-    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Prediction: Boosting</td>
-    <td class="tg-0lax">Wrap up and closure</td>
+    <td class="tg-amwm"><b>9:00-10:30</b></td>
+    <td class="tg-0lax">[9:00 – 9:10] Introduction to course <br> [9:10 – 9:40] Pre-knowledge test <br> [9:40 – 10:30] Data wrangling</td>
+    <td class="tg-0lax">String Processing</td>
+    <td class="tg-0lax">Introduction to ggplot2</td>
+    <td class="tg-0lax">Maps</td>
+    <td class="tg-0lax">Swine Flu case study (Project)</td>
   </tr>
   <tr>
-    <td class="tg-amwm"><b>10:00-11:00</b></td>
+    <td class="tg-amwm"><b>10:30-10:45</b></td>
     <td class="tg-0lax">Break</td>
     <td class="tg-0lax">Break</td>
     <td class="tg-0lax">Break</td>
@@ -321,15 +321,15 @@ Below is an outline of the current plan for course topics and schedule. It is in
     <td class="tg-0lax">Break</td>
   </tr>
   <tr>
-    <td class="tg-amwm"><b>11:00-13:00</b></td>
-    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Dimension reduction: LCA</td>
-    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Discovery Clustering, co-occurrence </td>
-    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Prediction Decision trees, random plots </td>
-    <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Prediction Neural Networks</td>
-    <td class="tg-0lax"></td>
+    <td class="tg-amwm"><b>10:45-12:00</b></td>
+    <td class="tg-0lax">Reshaping data, combining tables</td>
+    <td class="tg-0lax">String Processing</td>
+    <td class="tg-0lax">Visualization principles</td>
+    <td class="tg-0lax">Vaccines case study</td>
+    <td class="tg-0lax">COVID-19 case study (Project)</td>
   </tr>
   <tr>
-    <td class="tg-amwm"><b>13:00-14:00</b></td>
+    <td class="tg-amwm"><b>12:00-13:00</b></td>
     <td class="tg-0lax">Lunch</td>
     <td class="tg-0lax">Lunch</td>
     <td class="tg-0lax">Lunch</td>
@@ -337,12 +337,28 @@ Below is an outline of the current plan for course topics and schedule. It is in
     <td class="tg-0lax">Lunch</td>
   </tr>
   <tr> 
-    <td class="tg-amwm"><b>14:00-16:00</b></td>
-    <td class="tg-0lax">Practical work</td>
-    <td class="tg-0lax">Practical work</td>
-    <td class="tg-0lax">Practical work</td>
-    <td class="tg-0lax">Practical work</td>
-    <td class="tg-0lax"></td>
+    <td class="tg-amwm"><b>13:00-14:30</b></td>
+    <td class="tg-0lax">Advanced data wrangling, Dates, Times, web scraping</td>
+    <td class="tg-0lax">String splitting</td>
+    <td class="tg-0lax">Visualization principles continued</td>
+    <td class="tg-0lax">Vaccines case study</td>
+    <td class="tg-0lax">Presentations and Discussion</td>
+  </tr>
+  <tr>
+    <td class="tg-amwm"><b>14:30-14:45</b></td>
+    <td class="tg-0lax">Break</td>
+    <td class="tg-0lax">Break</td>
+    <td class="tg-0lax">Break</td>
+    <td class="tg-0lax">Break</td>
+    <td class="tg-0lax">Break</td>
+  </tr>
+  <tr> 
+    <td class="tg-amwm"><b>14:45-16:00</b></td>
+    <td class="tg-0lax">Practical</td>
+    <td class="tg-0lax">Practical</td>
+    <td class="tg-0lax">Practical</td>
+    <td class="tg-0lax">Practical</td>
+    <td class="tg-0lax">Practical</td>
   </tr>
   
 </table>
