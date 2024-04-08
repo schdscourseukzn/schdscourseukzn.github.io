@@ -215,7 +215,12 @@ Below is an outline of the current plan for course topics and schedule. It is in
   <tbody>
     <tr>
       <td>8:00 – 9:00 am</td>
-      <td colspan="5">Arrival and Registration Pre-Survey</td>
+    <td> -Arrival and Registration [8:00 - 8:30] <br> - Pre-Survey [8:30 - 9:00]</td>
+    <td> Arrival and Registration</td>
+    <td> Arrival and Registration</td>
+    <td> Arrival and Registration</td>
+    <td> Arrival and Registration </td>
+  </tr>
     </tr>
     <tr>
       <td>9:00-10:30 am</td>
