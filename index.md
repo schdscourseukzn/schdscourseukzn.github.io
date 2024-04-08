@@ -214,7 +214,7 @@ Below is an outline of the current plan for course topics and schedule. It is in
   </thead>
   <tbody>
     <tr>
-      <td>8:00 – 9:00 am</td>
+    <td>8:00 – 9:00 am</td>
     <td> -Arrival and Registration [8:00 - 8:30] <br> - Pre-Survey [8:30 - 9:00]</td>
     <td> Arrival and Registration</td>
     <td> Arrival and Registration</td>
@@ -280,11 +280,11 @@ Below is an outline of the current plan for course topics and schedule. It is in
   </tr>
   <tr>
     <th class="tg-amwm"><b>Time</b></th>
-    <th class="tg-amwm"><b>Monday 28/08</b></th>
-    <th class="tg-amwm"><b>Tuesday 29/08</b></th>
-    <th class="tg-amwm"><b>Wednesday 30/08</b></th>
-    <th class="tg-amwm"><b>Thursday 31/08</b></th>
-    <th class="tg-amwm"><b>Friday 01/09</b></th>
+    <th class="tg-amwm"><b>Monday 15/04</b></th>
+    <th class="tg-amwm"><b>Tuesday 16/04</b></th>
+    <th class="tg-amwm"><b>Wednesday 17/04</b></th>
+    <th class="tg-amwm"><b>Thursday 18/04</b></th>
+    <th class="tg-amwm"><b>Friday 19/04</b></th>
   </tr>
   <!-- <tr>
     <td><b>Facilitator(s)</b></td>
@@ -296,7 +296,14 @@ Below is an outline of the current plan for course topics and schedule. It is in
   </tr> -->
   
   
-  
+  <tr>
+    <td class="tg-amwm"><b>8:00-9:00</b></td>
+    <td class="tg-0lax">Arrival and Registration [8:00 - 8:30] <br> - Pre-Survey [8:30 - 9:00]</td>
+    <td class="tg-0lax">Arrival and Registration</td>
+    <td class="tg-0lax">Arrival and Registration</td>
+    <td class="tg-0lax">Arrival and Registration</td>
+    <td class="tg-0lax">Arrival and Registration</td>
+  </tr>
   <tr>
     <td class="tg-amwm"><b>8:30-10:00</b></td>
     <td class="tg-0lax">Introduction to Data Science methods for Health systems analysis: Dimension reduction: PCA</td>
