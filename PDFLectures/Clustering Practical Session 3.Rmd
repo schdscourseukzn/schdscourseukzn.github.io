@@ -1,0 +1,305 @@
+---
+title: "Clustering_Practical_Session3"
+author: ""
+date: "2023-08-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+https://uc-r.github.io/kmeans_clustering
+https://www.statology.org/k-means-clustering-in-r/
+
+```{r}
+library(tidyverse)  # data manipulation
+library(cluster)    # clustering algorithms
+library(factoextra) # clustering algorithms & visualization
+```
+
+
+## Data Preparation
+
+To perform a cluster analysis in R, generally, the data should be prepared as follows:
+
+1. Rows are observations (individuals) and columns are variables
+2. Any missing value in the data must be removed or estimated.
+3. The data must be standardized (i.e., scaled) to make variables comparable. Recall that, standardization consists of transforming the variables such that they have mean zero and standard deviation one.
+
+
+```{r}
+clustering_data <- read.csv(file = "C:/Users/mohammedm1/Documents/MOHANAD/STAT733/ZA_2016_DHS_08282023_1238_167366/ZAPR71DT/clustering_data_final.csv", header = TRUE)
+```
+
+
+```{r}
+str(clustering_data)
+
+clustering_data$Weight <- as.numeric(clustering_data$Weight)
+clustering_data$Height <- as.numeric(clustering_data$Height)
+clustering_data$Hemoglobin <- as.numeric(clustering_data$Hemoglobin)
+clustering_data$Systolic_BP <- as.numeric(clustering_data$Systolic_BP)
+clustering_data$Diastolic_BP <- as.numeric(clustering_data$Diastolic_BP)
+clustering_data$Hba1c <- as.numeric(clustering_data$Hba1c)
+
+str(clustering_data)
+```
+
+
+```{r}
+table(is.na(clustering_data))
+```
+
+```{r}
+##### Imputation of multiple columns (i.e. the whole data frame) #####
+
+# for(i in 1:ncol(clustering_data)) {
+#   clustering_data[ , i][is.na(clustering_data[ , i])] <- median(clustering_data[ , i], na.rm = TRUE)
+# }
+# head(clustering_data) # Check first 6 rows after substitution by mean
+# 
+# table(is.na(clustering_data))
+
+# write.csv(x = clustering_data, file = "C:/Users/mohammedm1/Documents/MOHANAD/STAT733/ZA_2016_DHS_08282023_1238_167366/ZAPR71DT/Clustering_Prac3.csv", row.names = FALSE)
+
+```
+
+
+As we don’t want the clustering algorithm to depend to an arbitrary variable unit, we start by scaling/standardizing the data using the R function `scale`:
+
+```{r}
+clustering_data_new <- scale(clustering_data)
+clustering_data_new <- as.data.frame(clustering_data_new)
+head(clustering_data)
+head(clustering_data_new)
+```
+
+
+
+## Clustering Distance Measures
+
+The classification of observations into groups requires some methods for computing the distance or the (dis)similarity between each pair of observations. The result of this computation is known as a dissimilarity or distance matrix. There are many methods to calculate this distance information; the choice of distance measures is a critical step in clustering. It defines how the similarity of two elements (x, y) is calculated and it will influence the shape of the clusters.
+
+The choice of distance measures is a critical step in clustering. It defines how the similarity of two elements (x, y) is calculated and it will influence the shape of the clusters. The classical methods for distance measures are Euclidean and Manhattan distances, which are defined as follow:
+
+**Euclidean distance:**
+
+$$
+d_{euc}(x, y) = \sqrt{\sum_{i=1}^{n}(x_i - y_i)^2}
+$$
+
+
+**Manhattan distance:**
+
+$$
+d_{man}(x, y) = \sum_{i=1}^{n}|(x_i - y_i)|
+$$
+
+Where, $x$ and $y$ are two vectors of length $n$.
+
+Other dissimilarity measures exist such as correlation-based distances, which is widely used for gene expression data analyses. These are, Pearson correlation distance, Spearman correlation distance, and Kendall correlation distance.
+
+The choice of distance measures is very important, as it has a strong influence on the clustering results. For most common clustering software, the default distance measure is the Euclidean distance. However, depending on the type of the data and the research questions, other dissimilarity measures might be preferred and you should be aware of the options.
+
+
+Within R it is simple to compute and visualize the distance matrix using the functions `get_dist` and `fviz_dist` from the `factoextra` R package. This starts to illustrate which states have large dissimilarities (red) versus those that appear to be fairly similar (teal).
+
+
+* **`get_dist`**: for computing a distance matrix between the rows of a data matrix. The default distance computed is the Euclidean; however, `get_dist` also supports distanced described in equations 1-2 above plus others.
+* **`fviz_dist`**: for visualizing a distance matrix
+
+
+```{r}
+distance <- get_dist(clustering_data_new)
+fviz_dist(distance, gradient = list(low = "#00AFBB", mid = "white", high = "#FC4E07"))
+```
+
+
+
+## K-Means Clustering
+
+K-means clustering is the most commonly used unsupervised machine learning algorithm for partitioning a given data set into a set of k groups (i.e. k clusters), where k represents the number of groups pre-specified by the analyst. It classifies objects in multiple groups (i.e., clusters), such that objects within the same cluster are as similar as possible (i.e., high intra-class similarity), whereas objects from different clusters are as dissimilar as possible (i.e., low inter-class similarity). In k-means clustering, each cluster is represented by its center (i.e, centroid) which corresponds to the mean of points assigned to the cluster.
+
+## The Basic Idea
+
+The basic idea behind k-means clustering consists of defining clusters so that the total intra-cluster variation (known as total within-cluster variation) is minimized. There are several k-means algorithms available. The standard algorithm is the Hartigan-Wong algorithm (1979), which defines the total within-cluster variation as the sum of squared distances Euclidean distances between items and the corresponding centroid:
+
+$$
+W(C_k) = \sum_{x_i \in C_k} (x_i - \mu_k)^2
+$$
+
+
+where:
+
+* $x_i$ is a data point belonging to the cluster $C_k$.
+* $\mu_k$ is the mean value of the points assigned to the cluster $C_k$.
+
+Each observation ($x_i$) is assigned to a given cluster such that the sum of squares (SS) distance of the observation to their assigned cluster centers ($\mu_k$) is minimized.
+
+We define the total within-cluster variation as follows:
+
+$$
+tot.withiness = \sum_{k=1}^kW(C_k) = \sum_{k=1}^k\sum_{x_i \in C_k} (x_i - \mu_k)^2
+$$
+
+The total within-cluster sum of square measures the compactness (i.e goodness) of the clustering and we want it to be as small as possible.
+
+## K-means Algorithm
+
+The first step when using k-means clustering is to indicate the number of clusters (k) that will be generated in the final solution. The algorithm starts by randomly selecting k objects from the data set to serve as the initial centers for the clusters. The selected objects are also known as cluster means or centroids. Next, each of the remaining objects is assigned to it’s closest centroid, where closest is defined using the Euclidean distance (Eq. 1) between the object and the cluster mean. This step is called “cluster assignment step”. After the assignment step, the algorithm computes the new mean value of each cluster. The term cluster “centroid update” is used to design this step. Now that the centers have been recalculated, every observation is checked again to see if it might be closer to a different cluster. All the objects are reassigned again using the updated cluster means. The cluster assignment and centroid update steps are iteratively repeated until the cluster assignments stop changing (i.e until convergence is achieved). That is, the clusters formed in the current iteration are the same as those obtained in the previous iteration.
+
+K-means algorithm can be summarized as follows:
+
+1. Specify the number of clusters (K) to be created (by the analyst)
+2. Select randomly k objects from the data set as the initial cluster centers or means
+3. Assigns each observation to their closest centroid, based on the Euclidean distance between the object and the centroid
+4. For each of the k clusters update the cluster centroid by calculating the new mean values of all the data points in the cluster. The centroid of a Kth cluster is a vector of length p containing the means of all variables for the observations in the kth cluster; p is the number of variables.
+5. Iteratively minimize the total within sum of square (Eq. 7). That is, iterate steps 3 and 4 until the cluster assignments stop changing or the maximum number of iterations is reached. By default, the R software uses 10 as the default value for the maximum number of iterations.
+
+
+## Computing k-means clustering in R
+
+We can compute k-means in R with the `kmeans` function. Here will group the data into two clusters (centers = 2). The kmeans function also has an nstart option that attempts multiple initial configurations and reports on the best one. For example, adding nstart = 25 will generate 25 initial configurations. This approach is often recommended.
+
+```{r}
+k2 <- kmeans(clustering_data_new, centers = 2, nstart = 25)
+str(k2)
+```
+```{r}
+k2
+```
+
+We can also view our results by using `fviz_cluster`. This provides a nice illustration of the clusters. If there are more than two dimensions (variables) `fviz_cluster` will perform principal component analysis (PCA) and plot the data points according to the first two principal components that explain the majority of the variance.
+
+```{r}
+fviz_cluster(k2, data = clustering_data_new)
+```
+
+Alternatively, you can use standard pairwise scatter plots to illustrate the clusters compared to the original variables.
+
+```{r}
+clustering_data_new %>%
+  as_tibble() %>%
+  mutate(cluster = k2$cluster,
+         ID = row.names(clustering_data_new)) %>%
+  ggplot(aes(Weight, Systolic_BP, color = factor(cluster), label = ID)) +
+  geom_text()
+```
+
+Because the number of clusters (k) must be set before we start the algorithm, it is often advantageous to use several different values of k and examine the differences in the results. We can execute the same process for 3, 4, and 5 clusters, and the results are shown in the figure:
+
+```{r}
+k3 <- kmeans(clustering_data_new, centers = 3, nstart = 25)
+k4 <- kmeans(clustering_data_new, centers = 4, nstart = 25)
+k5 <- kmeans(clustering_data_new, centers = 5, nstart = 25)
+
+# plots to compare
+p1 <- fviz_cluster(k2, geom = "point", data = clustering_data_new) + ggtitle("k = 2")
+p2 <- fviz_cluster(k3, geom = "point",  data = clustering_data_new) + ggtitle("k = 3")
+p3 <- fviz_cluster(k4, geom = "point",  data = clustering_data_new) + ggtitle("k = 4")
+p4 <- fviz_cluster(k5, geom = "point",  data = clustering_data_new) + ggtitle("k = 5")
+
+library(gridExtra)
+grid.arrange(p1, p2, p3, p4, nrow = 2)
+```
+
+## Determining Optimal Clusters
+
+Preferably we would like to use the optimal number of clusters. The following explains the three most popular methods for determining the optimal clusters, which includes: Elbow method, Silhouette method, and Gap statistic.
+
+**Elbow Method**
+Recall that, the basic idea behind cluster partitioning methods, such as k-means clustering, is to define clusters such that the total intra-cluster variation (known as total within-cluster variation or total within-cluster sum of square) is minimized:
+
+$$
+minimize(\sum_{k=1}^kW(C_k))
+$$
+
+where $C_k$ is the kth cluster and $W(C_k)$ is the within-cluster variation. The total within-cluster sum of square (wss) measures the compactness of the clustering and we want it to be as small as possible. Thus, we can use the following algorithm to define the optimal clusters:
+
+
+1. Compute clustering algorithm (e.g., k-means clustering) for different values of k. For instance, by varying k from 1 to 10 clusters
+2. For each k, calculate the total within-cluster sum of square (wss)
+3. Plot the curve of wss according to the number of clusters k.
+4. The location of a bend (knee) in the plot is generally considered as an indicator of the appropriate number of clusters.
+
+We can implement this in R with the following code. The results suggest that 6 is the optimal number of clusters as it appears to be the bend in the knee (or elbow).
+
+
+```{r}
+set.seed(123)
+
+# function to compute total within-cluster sum of square 
+wss <- function(k) {
+  kmeans(clustering_data_new, k, nstart = 10 )$tot.withinss
+}
+
+# Compute and plot wss for k = 1 to k = 15
+k.values <- 1:15
+
+# extract wss for 2-15 clusters
+wss_values <- map_dbl(k.values, wss)
+
+plot(k.values, wss_values,
+       type="b", pch = 19, frame = FALSE, 
+       xlab="Number of clusters K",
+       ylab="Total within-clusters sum of squares")
+```
+
+Fortunately, this process to compute the “Elbow method” has been wrapped up in a single function `fviz_nbclust`:
+
+```{r}
+set.seed(123)
+
+fviz_nbclust(clustering_data_new, kmeans, method = "wss")
+```
+
+## Extracting Results
+
+With the elbow approach suggesting 5 as the number of optimal clusters, we can perform the final analysis and extract the results using 5 clusters.
+
+```{r}
+# Compute k-means clustering with k = 5
+set.seed(123)
+final <- kmeans(clustering_data_new, 5, nstart = 25)
+print(final)
+```
+
+
+We can visualize the results using `fviz_cluster`:
+
+```{r}
+fviz_cluster(final, data = clustering_data_new)
+```
+
+
+And we can extract the clusters and add to our initial data to do some descriptive statistics at the cluster level:
+
+```{r}
+clustering_data %>%
+  mutate(Cluster = final$cluster) %>%
+  group_by(Cluster) %>%
+  summarise_all("mean")
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

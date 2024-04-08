@@ -1,0 +1,176 @@
+---
+title: "Prediction"
+author: "Mohanad Mohammed"
+date: "2023-08-31"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+# Loading package
+library(e1071)
+library(caTools)
+library(class)
+library(caret)
+library(MASS)
+library(pROC)
+```
+
+
+```{r}
+womens_data <- read.csv(file = "C:/Users/mohammedm1/Documents/MOHANAD/STAT733/Data_group_Prac.csv", header = TRUE, stringsAsFactors = TRUE, row.names = 1)
+str(womens_data)
+summary(womens_data)
+```
+
+```{r}
+#Make sure the outcome variable is factor variable as we dealing with classification problem
+womens_data$group <- as.factor(womens_data$group)
+str(womens_data)
+```
+
+### Splitting the dataset into training and testing sets
+
+```{r, message=FALSE, warning=FALSE}
+set.seed(2023)
+train_indx <- createDataPartition(womens_data$group, p=0.70, list=FALSE)
+
+train <- womens_data[train_indx,] # 70% of data to training
+test <- womens_data[-train_indx,] # remaining 30% for test
+
+```
+
+
+# K Nearest Neighbor (KNN)
+
+* KNN algorithm is a **non-parametric** supervised machine learning model. In other words, while for most algorithms you need to find some parameters (such as `beta` in linear and logistic regression or `W` in neural networks), in the case of kNN you don’t have to find any value.
+* It is a supervised learning algorithm that classifies a new data point into the target class, depending on the features of its neighboring data points (observations).
+* It is used for both classification and regression problems.
+* It predicts an `outcome` using one or multiple independent variables.
+* kNN uses the classes of neighboring points to make classification decisions based on the assumption that similar points tend to have similar labels.
+
+
+In the KNN algorithm, K specifies the number of neighbors and its algorithm is as follows:
+
+   * Choose the number K of neighbor.
+   * Take the K Nearest Neighbor of unknown data point according to distance.
+   * Among the K-neighbors, Count the number of data points in each category.
+   * Assign the new data point to a category, where you counted the most neighbors.
+   
+## Distance metrics employed by the kNN algorithm
+There are various distance measurements utilized by KNN, including Euclidean distance, Minkowski distance, Manhattan distance, Cosine distance and Jaccard distance among other. Nevertheless,the most common distance measurement in KNN is Euclidean distance.
+
+### Euclidean Distance
+In mathematics, the Euclidean distance is defined as the distance between two points, and it is defined as follows:
+
+$$
+d(x, y) = \sqrt{\sum_{i=1}^{n}(x_i - y_i)^2}
+$$
+
+
+
+### KNN Implementation
+
+```{r, message=FALSE, warning=FALSE}
+set.seed(2023)
+
+# Run algorithms using 10-fold cross validation
+trainControl <- trainControl(method="cv", number =10, savePredictions = T)
+
+KNN_model <- train(group ~ ., data=train, method="knn",
+                 metric="Accuracy" ,trControl=trainControl,
+ tuneLength = 10)
+
+print(KNN_model)
+```
+
+
+```{r, message=FALSE, warning=FALSE}
+plot(KNN_model)
+```
+
+
+This plot shows the Elbow k = 9 with accuracy 81.4% for training dataset. Now let us use the model with the test dataset and print out the confusion matrix.
+
+```{r, message=FALSE, warning=FALSE}
+KNN_preds <- predict(KNN_model, newdata = test)
+KNN_cm <- confusionMatrix(KNN_preds, test$group, positive = "1")
+print(KNN_cm)
+```
+
+Let’s try gird search for `k` from 1 to 50:
+
+```{r, message=FALSE, warning=FALSE}
+set.seed(198509)
+KNN_grid <- expand.grid(k=seq(1,50, by=2))
+KNN_model2 <- train(group ~ ., data=train, method="knn", 
+                 metric="Accuracy", tuneGrid=KNN_grid, trControl=trainControl)
+print(KNN_model2)
+```
+
+
+```{r, message=FALSE, warning=FALSE}
+plot(KNN_model2)
+```
+
+We noticed that the optimal value of `k` is 11, the number of closest observations to collect in order to make a prediction. Now, let's use this model to predict our new observations.
+
+
+
+```{r, message=FALSE, warning=FALSE}
+KNN_preds2 <- predict(KNN_model2, newdata = test)
+KNN_cm2 <- confusionMatrix(KNN_preds2, test$group, positive = "1")
+print(KNN_cm2)
+```
+
+
+### LDA Implementation
+
+```{r, message=FALSE, warning=FALSE}
+LDA_model <- lda(group ~ ., data=train)
+LDA_model
+```
+
+```{r, message=FALSE, warning=FALSE}
+LDA_preds <- predict(LDA_model, test)
+LDA_cm <- confusionMatrix(data = as.factor(LDA_preds$class), reference = as.factor(test$group), positive = "1")
+LDA_cm
+```
+
+
+# Plotting ROC curves for all the models
+
+Let us get the predictions of each model
+```{r, message=FALSE, warning=FALSE}
+KNN_probs <- predict(KNN_model, newdata = test, type = "prob")
+#KNN_probs2 <- predict(KNN_model2, newdata = test, type = "prob")
+#NB_probs <- predict(NB_model, newdata = test, type = "raw")
+#NB_probs2 <- predict(NB_model2, newdata = test, type = "prob")
+LDA_probs <- LDA_preds$posterior[,2]
+```
+
+
+
+```{r, message=FALSE, warning=FALSE}
+KNN_ROC <- roc(test$group, KNN_probs[,2])
+# KNN_ROC2 <- roc(test$BAD, KNN_probs2[,2])
+# NB_ROC <- roc(test$BAD, NB_probs[,2])
+# NB_ROC2 <- roc(test$BAD, NB_probs2[,2])
+LDA_ROC <- roc(test$group, LDA_probs)
+```
+
+
+```{r, message=FALSE, warning=FALSE}
+ggroc(list("KNN" = KNN_ROC, "LDA" = LDA_ROC)) +
+  theme(legend.title = element_blank()) +
+  geom_segment(aes(x = 1, xend = 0, y = 0, yend = 1), color = "black", linetype = "dashed") +
+  xlab("Specificity") +
+  ylab("Sensitivity") 
+```
+
+
+

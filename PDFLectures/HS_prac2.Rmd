@@ -1,0 +1,230 @@
+---
+title: "Dimension Reduction"
+author: "Mohanad Mohammed"
+date: "2023-08-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/115-famd-factor-analysis-of-mixed-data-in-r-essentials/
+
+http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/115-famd-factor-analysis-of-mixed-data-in-r-essentials/
+
+```{r}
+# install.packages("FactoMineR")
+# install.packages("vcd")
+# install.packages("factoextra")
+
+library(FactoMineR)
+library(vcd)
+library(factoextra)
+```
+
+
+## Factorial Analysis of Mixed Data (FAMD) Is a PCA for Categorical Variables Alternate
+
+A major component method is the Factor Analysis of Mixed Data (FAMD). By considering several sorts of data, this approach enables one to examine how similar people are.
+
+This technique consists of two steps: first, it suitably encodes the data; and second, it searches the data set iteratively for the K principal components.
+
+Similar to how PCA operates, this main component search does the same.
+
+Variables that are both quantitative and qualitative are standardized during the Factorial Analysis of Mixed Data. This balances the impact of each group of variables.
+
+
+By using the `FAMD()` function from the FactoMineR package, we can construct this analysis and see how it functions using the R programming language.
+
+
+
+```{r}
+Assets_data <- read.csv(file = "C:/Users/mohammedm1/Documents/MOHANAD/STAT733/ZA_2016_DHS_08282023_1238_167366/ZAHR71DT/Assets_Data - prac.csv", header = TRUE, stringsAsFactors = TRUE)
+```
+
+```{r}
+table(is.na(Assets_data))
+```
+
+```{r}
+str(Assets_data)
+```
+
+```{r}
+Assets_famd <- FAMD(Assets_data, graph=FALSE, ncp = 33)
+```
+
+
+```{r}
+Assets_famd
+```
+
+
+We’ll use the following factoextra functions:
+
+* get_eigenvalue(Assets_famd): Extract the eigenvalues/variances retained by each dimension (axis).
+* fviz_eig(Assets_famd): Visualize the eigenvalues/variances.
+* get_famd_ind(Assets_famd): Extract the results for individuals.
+* get_famd_var(Assets_famd): Extract the results for quantitative and qualitative variables.
+* fviz_famd_ind(Assets_famd), fviz_famd_var(Assets_famd): Visualize the results for individuals and variables, respectively.
+    
+    
+
+```{r}
+eig.val <- get_eigenvalue(Assets_famd)
+head(eig.val)
+```
+
+```{r}
+fviz_screeplot(Assets_famd, ncp=33)
+```
+
+
+All variables
+
+The function `get_mfa_var()` [in factoextra] is used to extract the results for variables. By default, this function returns a list containing the coordinates, the cos2 and the contribution of all variables:
+
+
+```{r}
+var <- get_famd_var(Assets_famd)
+var
+```
+
+The different components can be accessed as follow:
+
+```{r}
+# Coordinates of variables
+head(var$coord)
+# Cos2: quality of representation on the factore map
+head(var$cos2)
+# Contributions to the  dimensions
+head(var$contrib)
+```
+
+
+The following figure shows the correlation between variables - both quantitative and qualitative variables - and the principal dimensions, as well as, the contribution of variables to the dimensions 1 and 2. The following functions [in the factoextra package] are used:
+
+    fviz_famd_var() to plot both quantitative and qualitative variables
+    fviz_contrib() to visualize the contribution of variables to the principal dimensions
+
+
+```{r}
+fviz_famd_var(Assets_famd, repel = TRUE)
+# Contribution to the first dimension
+fviz_contrib(Assets_famd, "var", axes = 1)
+# Contribution to the second dimension
+fviz_contrib(Assets_famd, "var", axes = 2)
+```
+
+The red dashed line on the graph above indicates the expected average value, If the contributions were uniform.
+
+
+## Quantitative variables
+
+To extract the results for quantitative variables, type this:
+
+```{r}
+quanti.var <- get_famd_var(Assets_famd, "quanti.var")
+quanti.var 
+```
+
+In this section, we’ll describe how to visualize quantitative variables. Additionally, we’ll show how to highlight variables according to either i) their quality of representation on the factor map or ii) their contributions to the dimensions.
+
+The R code below plots quantitative variables. We use repel = TRUE, to avoid text overlapping.
+
+```{r}
+fviz_famd_var(Assets_famd, "quanti.var", repel = TRUE,
+              col.var = "black")
+```
+
+
+Briefly, the graph of variables (correlation circle) shows the relationship between variables, the quality of the representation of variables, as well as, the correlation between variables and the dimensions.
+
+The most contributing quantitative variables can be highlighted on the scatter plot using the argument col.var = "contrib". This produces a gradient colors, which can be customized using the argument gradient.cols.
+
+```{r}
+fviz_famd_var(Assets_famd, "quanti.var", col.var = "contrib", 
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
+             repel = TRUE)
+```
+
+Similarly, you can highlight quantitative variables using their cos2 values representing the quality of representation on the factor map. If a variable is well represented by two dimensions, the sum of the cos2 is closed to one. For some of the items, more than 2 dimensions might be required to perfectly represent the data.
+
+
+```{r}
+# Color by cos2 values: quality on the factor map
+fviz_famd_var(Assets_famd, "quanti.var", col.var = "cos2",
+             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"), 
+             repel = TRUE)
+```
+
+
+## Graph of qualitative variables
+
+Like quantitative variables, the results for qualitative variables can be extracted as follow:
+
+```{r}
+quali.var <- get_famd_var(Assets_famd, "quali.var")
+quali.var 
+```
+
+```{r}
+# Assets_data$has.radio <- recode_factor(Assets_data$has.radio,"Yes" = "yesRadio", "No" = "noRadio")
+# Assets_data$has.television <- recode_factor(Assets_data$has.television,"Yes" = "yesTV", "No" = "noTV")
+# Assets_data$has.refrigerator <- recode_factor(Assets_data$has.refrigerator,"Yes" = "yesRefrig", "No" = "noRefrig")
+# Assets_data$has.bicycle <- recode_factor(Assets_data$has.bicycle,"Yes" = "yesBicyc", "No" = "noBicyc")
+# Assets_data$has.motorcycle.scooter <- recode_factor(Assets_data$has.motorcycle.scooter,"Yes" = "yesMotor", "No" = "noMotor")
+# 
+# 
+# Assets_data$has.car.truck <- recode_factor(Assets_data$has.car.truck,"Yes" = "yesTruck", "No" = "noTruck")
+# Assets_data$share.toilet.with.other.households <- recode_factor(Assets_data$share.toilet.with.other.households,"Yes" = "yesShareToi", "No" = "noShareToi")
+# Assets_data$items.present..soap.or.detergent <- recode_factor(Assets_data$has.refrigerator,"Yes" = "yesSoap", "No" = "noSoap")
+# Assets_data$items.present..ash..mud..sand <- recode_factor(Assets_data$items.present..ash..mud..sand,"Yes" = "yesSand", "No" = "noSand")
+# Assets_data$anything.done.to.water.to.make.safe.to.drink <- recode_factor(Assets_data$anything.done.to.water.to.make.safe.to.drink,"Yes" = "yesSaveWater", "No" = "noSaveWater")
+# 
+# 
+# Assets_data$water.usually.treated.by..add.bleach.chlorine <- recode_factor(Assets_data$water.usually.treated.by..add.bleach.chlorine,"Yes" = "yesChlorine", "No" = "noChlorine")
+# Assets_data$water.usually.treated.by..boil <- recode_factor(Assets_data$water.usually.treated.by..boil,"Yes" = "yesboil", "No" = "noboil")
+# Assets_data$water.usually.treated.by..strain.through.a.cloth <- recode_factor(Assets_data$water.usually.treated.by..strain.through.a.cloth,"Yes" = "yescloth", "No" = "nocloth")
+# Assets_data$water.usually.treated.by..use.water.filter <- recode_factor(Assets_data$water.usually.treated.by..use.water.filter,"Yes" = "yesfilter", "No" = "nofilter")
+# Assets_data$water.usually.treated.by..solar.disinfection <- recode_factor(Assets_data$water.usually.treated.by..solar.disinfection,"Yes" = "yessolar", "No" = "nosolar")
+# Assets_data$water.usually.treated.by..let.it.stand.and.settle <- recode_factor(Assets_data$water.usually.treated.by..let.it.stand.and.settle,"Yes" = "yessettle", "No" = "nosettle")
+# Assets_data$water.usually.treated.by..other <- recode_factor(Assets_data$water.usually.treated.by..other,"Yes" = "yesother", "No" = "noother")
+# Assets_data$water.usually.treated.by..don.t.know <- recode_factor(Assets_data$water.usually.treated.by..don.t.know,"Yes" = "yesdontknow", "No" = "nodontknow")
+# 
+# 
+# 
+# Assets_data$has.mobile.telephone <- recode_factor(Assets_data$has.mobile.telephone,"Yes" = "yesmobile", "No" = "nomobile")
+# Assets_data$has.watch <- recode_factor(Assets_data$has.watch,"Yes" = "yeswatch", "No" = "nowatch")
+# Assets_data$has.animal.drawn.cart <- recode_factor(Assets_data$has.animal.drawn.cart,"Yes" = "yesanimal", "No" = "noanimal")
+# Assets_data$water.usually.treated.by..use.water.filter <- recode_factor(Assets_data$water.usually.treated.by..use.water.filter,"Yes" = "yesfilter", "No" = "nofilter")
+# Assets_data$water.usually.treated.by..solar.disinfection <- recode_factor(Assets_data$water.usually.treated.by..solar.disinfection,"Yes" = "yessolar", "No" = "nosolar")
+# Assets_data$water.usually.treated.by..let.it.stand.and.settle <- recode_factor(Assets_data$water.usually.treated.by..let.it.stand.and.settle,"Yes" = "yessettle", "No" = "nosettle")
+# Assets_data$water.usually.treated.by..other <- recode_factor(Assets_data$water.usually.treated.by..other,"Yes" = "yesother", "No" = "noother")
+# Assets_data$water.usually.treated.by..don.t.know <- recode_factor(Assets_data$water.usually.treated.by..don.t.know,"Yes" = "yesdontknow", "No" = "nodontknow")
+
+```
+
+
+
+
+To visualize qualitative variables, type this:
+
+```{r}
+# fviz_famd_var(Assets_famd, "quali.var", col.var = "contrib", 
+#              gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07")
+#              )
+```
+
+
+
+
+```{r}
+# fviz_famd_ind(Assets_famd,col.ind = "cos2",
+#              gradient.cols = c("blue", "orange", "red"),
+#              repel = TRUE)
+```
+
+
+
