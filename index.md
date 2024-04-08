@@ -199,75 +199,7 @@ Below is an outline of the current plan for course topics and schedule. It is in
 
 
 
-<!-- <h2>In-person Lectures</h2> -->
 
-<table border="1">
-  <thead>
-    <tr>
-      <th>Date</th>
-      <th>Monday, 4/15</th>
-      <th>Tuesday, 4/16</th>
-      <th>Wednesday, 4/17</th>
-      <th>Thursday, 4/18</th>
-      <th>Friday, 4/19</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-    <td>8:00 – 9:00 am</td>
-    <td> -Arrival and Registration [8:00 - 8:30] <br> - Pre-Survey [8:30 - 9:00]</td>
-    <td> Arrival and Registration</td>
-    <td> Arrival and Registration</td>
-    <td> Arrival and Registration</td>
-    <td> Arrival and Registration </td>
-  </tr>
-    </tr>
-    <tr>
-      <td>9:00-10:30 am</td>
-      <td>[9:00 – 9:10] Introduction to course<br> [9:10 – 9:40] Pre-knowledge test<br>[9:40 – 10:30] Data wrangling</td>
-      <td>String Processing</td>
-      <td>Introduction to ggplot2</td>
-      <td>Maps</td>
-      <td>Swine Flu case study (Project)</td>
-    </tr>
-    <tr>
-      <td>10:30-10:45 am</td>
-      <td colspan="5">Break</td>
-    </tr>
-    <tr>
-      <td>10:45-12:00 pm</td>
-      <td>Reshaping data, combining tables</td>
-      <td>String Processing</td>
-      <td>Visualization principles</td>
-      <td>Vaccines case study</td>
-      <td>COVID-19 case study (Project)</td>
-    </tr>
-    <tr>
-      <td>12:00-1:00 pm</td>
-      <td colspan="5">Lunch</td>
-    </tr>
-    <tr>
-      <td>1:00-2:30 pm</td>
-      <td>Advanced data wrangling, Dates, Times, web scraping</td>
-      <td>String splitting</td>
-      <td>Visualization principles continued</td>
-      <td>Vaccines case study</td>
-      <td>Presentations and Discussion</td>
-    </tr>
-    <tr>
-      <td>2:30-2:45 pm</td>
-      <td colspan="5">Break</td>
-    </tr>
-    <tr>
-      <td>2:45-4:00 pm</td>
-      <td>Practical</td>
-      <td>Practical</td>
-      <td>Practical</td>
-      <td>Practical</td>
-      <td>Closing Ceremony, 6pm closing dinner</td>
-    </tr>
-  </tbody>
-</table>
 
 <br>
 
