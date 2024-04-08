@@ -358,7 +358,7 @@ Below is an outline of the current plan for course topics and schedule. It is in
     <td class="tg-0lax">Practical</td>
     <td class="tg-0lax">Practical</td>
     <td class="tg-0lax">Practical</td>
-    <td class="tg-0lax">Practical</td>
+    <td class="tg-0lax">Closing Ceremony, 6pm closing dinner</td>
   </tr>
   
 </table>
