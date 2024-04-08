@@ -14,7 +14,7 @@ title: Contact
 
 
 <h2> Admin: Centre for Rural Health Team </h2>
-<--!* Bavashni Govender - <a href="mailto:GovenderB@ukzn.ac.za">GovenderB@ukzn.ac.za</a> <br> -->
-<--!* Princess Nonhlanhla Maphumulo - <a href="mailto:Maphumulop1@ukzn.ac.za">Maphumulop1@ukzn.ac.za</a> <br> -->
-<--!* Sharmila Rugbeer - <a href="mailto:Rugbeer@ukzn.ac.za">Rugbeer@ukzn.ac.za</a> <br> -->
+<!--* Bavashni Govender - <a href="mailto:GovenderB@ukzn.ac.za">GovenderB@ukzn.ac.za</a> <br> -->
+<!--* Princess Nonhlanhla Maphumulo - <a href="mailto:Maphumulop1@ukzn.ac.za">Maphumulop1@ukzn.ac.za</a> <br> -->
+<!--* Sharmila Rugbeer - <a href="mailto:Rugbeer@ukzn.ac.za">Rugbeer@ukzn.ac.za</a> <br> -->
 * Themba Manqele - <a href="mailto:Manqelet@ukzn.ac.za">Manqelet@ukzn.ac.za</a> <br>
