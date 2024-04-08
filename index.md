@@ -1,6 +1,6 @@
 ---
 layout: frontpage
-title: Health Systems Short Course
+title: Statistical Computing for Health Data Science
 ---
 
 <html lang="en">
@@ -124,15 +124,15 @@ title: Health Systems Short Course
 
 <h1 style="background-color:white; color:black; text-align: center;"> Data Science Initiative for Africa (DSI-A) Training Programme </h1>
 
-<h2 style="background-color:white; color:black; text-align: center;"> A Short Course in Health Systems with a Focus on Health Data Science </h2>
+<h2 style="background-color:white; color:black; text-align: center;"> A Short Course in Statistical Computing for Health Data Science with a Focus on the Methods </h2>
 
 
-<h3 style="background-color:white; color:Red; text-align: center;"> All lectures will start from 8:30 AM - 4:30 PM. </h3> <br>
+<h3 style="background-color:white; color:Red; text-align: center;"> All lectures will start from 9:00 AM - 4:30 PM. </h3> <br>
 
 <!-- <h2 style="background-color:white; color:black; text-align: left;"> Virtual BootCamp: 19 – 23 June 2023 </h2> -->
 <!-- <h4 style="background-color:white; color:black; text-align: left;"> Please use the following link: <a href="https://ukzn.zoom.us/j/98032587955?pwd=TnkzUHpvc0txMTA1WWViNVZseTVEdz09" target="_blank"><span style="text-align:center">ZOOM LINK</span></a>. </h4> -->
 
-<h2 style="background-color:white; color:black; text-align: left;"> Dates: Monday, 21st August – Friday, 1st September 2023 </h2> 
+<h2 style="background-color:white; color:black; text-align: left;"> Dates: Monday, 15th – Friday, 19th April 2024 </h2> 
 <h4 style="background-color:white; color:black; text-align: left;"> Venue: <a href="https://www.southernsun.com/southern-sun-elangeni-maharani" target="_blank"><span style="text-align:center">Elangeni Hotel</span></a>, 63 Snell Parade, North Beach, Durban, 4001. </h4>
 <h4 style="background-color:white; color:black; text-align: left;"> Virtual Link: <a href="https://www.google.com/url?q=https://ukzn.zoom.us/j/93891463089?pwd%3DeFN3ZjR4eUNJLzZwVEhmRVZXeHJxQT09&sa=D&source=calendar&usd=2&usg=AOvVaw1yN0XnFQ1sfYfzHrpjoIa6" target="_blank"><span style="text-align:center">Join Lectures</span></a> </h4> <br>
 
