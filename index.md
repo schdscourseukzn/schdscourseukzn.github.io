@@ -228,7 +228,7 @@ Below is an outline of the current plan for course topics and schedule. It is in
       <td>String Processing</td>
       <td>Introduction to ggplot2</td>
       <td>Maps</td>
-      <td>wine Flu case study (Project)</td>
+      <td>Swine Flu case study (Project)</td>
     </tr>
     <tr>
       <td>10:30-10:45 am</td>
@@ -248,11 +248,11 @@ Below is an outline of the current plan for course topics and schedule. It is in
     </tr>
     <tr>
       <td>1:00-2:30 pm</td>
-      <td>Advanced data wrangling, Dates, Times, web scraping<br>Dr. Mohanad Mohammed</td>
-      <td>String splitting<br>Dr. Gabriel Kallah-Dagadu</td>
-      <td>Visualization principles continued<br>Dr. Gabriel Kallah-Dagadu</td>
-      <td>Vaccines case study<br>Dr. Gabriel Kallah-Dagadu</td>
-      <td></td>
+      <td>Advanced data wrangling, Dates, Times, web scraping</td>
+      <td>String splitting</td>
+      <td>Visualization principles continued</td>
+      <td>Vaccines case study</td>
+      <td>Presentations and Discussion</td>
     </tr>
     <tr>
       <td>2:30-2:45 pm</td>
