@@ -208,7 +208,7 @@ Below is an outline of the current plan for course topics and schedule. It is in
 
 <table id="inpersonw2">
   <tr>
-    <th colspan="6" style="background-color: #304C75;"><b><b><b><b>Week 2</b></b></b></b></th>
+    <th colspan="6" style="background-color: #304C75;"><b><b><b><b>Statistical Computing Short Course Programme</b></b></b></b></th>
   </tr>
   <tr>
     <th class="tg-amwm"><b>Time</b></th>
