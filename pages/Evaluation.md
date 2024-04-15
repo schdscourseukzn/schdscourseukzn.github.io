@@ -19,5 +19,5 @@ title: Evaluation
 <h4> The pre-test Knowledge: </h4>
 <iframe src="https://forms.gle/nYvq2ZUXyEkPQkYb9" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading… </iframe>
 -->
-<h4> The Profile information </h4>
+<h4> The Profile Information </h4>
 <iframe src="https://forms.gle/1XnDm42ACWS6VCpXA" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading… </iframe>
