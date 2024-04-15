@@ -124,16 +124,16 @@ Below you'll find a list of links to lecture notes and code as well as links to 
 
 
 
-<!--
+
 <h4> Day 1:</h4>
 
-<a href="https://hscourseukzn.github.io/PDFLectures/Health system definition - lecture 1.pdf" download> Health system definition - Prof. O Mahomed </a> <br>
+<a href="https://hscourseukzn.github.io/PDFLectures/day_01_lecture1.Rmd" download> lecture 1 - Dr. Gabriel Kallah-Dagadu </a> <br>
 
-<a href="https://hscourseukzn.github.io/PDFLectures/HEALTHCARE_SYSTEMS.pdf" download> HEALTHCARE SYSTEMS - Prof. S Naidoo </a> <br>
-
-<a href="https://hscourseukzn.github.io/PDFLectures/Assignment1_Data_science_workshop.docx" download> Assignment 1 </a> <br>
+<a href="https://hscourseukzn.github.io/PDFLectures/day_01_lecture2.Rmd" download> lecture 2 - Dr. Mohanad Mohammed </a> <br>
 
 
+
+<!--
 <h4> Day 2:</h4>
 
 <a href="https://hscourseukzn.github.io/PDFLectures/Health system building block session 1.pdf" download> Health system building block - Prof. O Mahomed </a> <br>
