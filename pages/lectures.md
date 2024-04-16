@@ -135,19 +135,11 @@ Below you'll find a list of links to lecture notes and code as well as links to 
 
 
 
-<!--
+
 <h4> Day 2:</h4>
 
-<a href="https://hscourseukzn.github.io/PDFLectures/Health system building block session 1.pdf" download> Health system building block - Prof. O Mahomed </a> <br>
-
-<a href="https://hscourseukzn.github.io/PDFLectures/presentation 3.pdf" download> LEADERSHIP AND GOVERNANCE </a> <br>
-
-<a href="https://hscourseukzn.github.io/PDFLectures/Presentation Finance.pdf" download> HEALTHCARE FINANCING </a> <br>
-
-<a href="https://hscourseukzn.github.io/PDFLectures/human resources for health.pdf" download> HEALTH WORKFORCE </a> <br>
-
-<a href="https://hscourseukzn.github.io/PDFLectures/medicnes vaccines and technology.pdf" download> MEDICAL PRODUCTS, VACCINES AND TECHNOLOGIES </a> <br>
-
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_02_lecture1.Rmd" download> lecture 1 - Dr. Mohanad Mohammed </a> <br>
+<!--
 <h4> Day 3:</h4>
 
 <a href="https://hscourseukzn.github.io/PDFLectures/QIP Task (2).docx" download> QIP Task - Dr. Swabhavika & Dr. Vidaisha </a> <br>
