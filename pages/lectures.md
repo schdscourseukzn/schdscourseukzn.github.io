@@ -144,6 +144,9 @@ Below you'll find a list of links to lecture notes and code as well as links to 
 
 <a href="https://schdscourseukzn.github.io/PDFLectures/day_02_lecture2.zip" download> lecture 2 - Dr. Gabriel Kallah-Dagadu </a> <br>
 
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_02_lab1.Rmd" download> Lab 1 </a> <br>
+
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_02_lab2.Rmd" download> Lab 2 </a> <br>
 
 <!--
 <h4> Day 3:</h4>
