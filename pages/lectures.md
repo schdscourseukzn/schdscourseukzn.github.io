@@ -149,16 +149,20 @@ Below you'll find a list of links to lecture notes and code as well as links to 
 <a href="https://schdscourseukzn.github.io/PDFLectures/day_02_lab2.Rmd" download> Lab 2 </a> <br>
 
 <!--
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_02_lab1_solutions.Rmd" download> Lab 1 Solutions </a> <br>
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_02_lab2_solutions.Rmd" download> Lab 1 Solutions </a> <br>
+-->
+
+
 <h4> Day 3:</h4>
 
-<a href="https://hscourseukzn.github.io/PDFLectures/QIP Task (2).docx" download> QIP Task - Dr. Swabhavika & Dr. Vidaisha </a> <br>
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_03_lecture1.Rmd" download> lecture 1 - Dr. Mohanad Mohammed </a> <br>
 
-<a href="https://hscourseukzn.github.io/PDFLectures/Copy of Data.xls" download> Data - Dr. Swabhavika & Dr. Vidaisha</a> <br>
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_03_lecture2.Rmd" download> lecture 2 - Dr. Gabriel Kallah-Dagadu </a> <br>
 
-<a href="https://hscourseukzn.github.io/PDFLectures/Health systemn strengthening.pdf" download> Health systems strengthening - Prof. S Saloshni </a> <br>
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_03_lecture3.Rmd" download> lecture 3 - Dr. Gabriel Kallah-Dagadu </a> <br>
 
-<a href="https://hscourseukzn.github.io/PDFLectures/Quality and Healthcare .pdf" download> Quality and Healthcare - Prof. O Mahomed </a> <br>
-
+<!--
 <h4> Day 4:</h4>
 
 <a href="https://hscourseukzn.github.io/PDFLectures/System thinking in Healthcare Management2.pdf" download> System thinking in Healthcare Management - Dr. Avashri </a> <br>
