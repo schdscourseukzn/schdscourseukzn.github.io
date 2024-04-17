@@ -148,8 +148,8 @@ Below you'll find a list of links to lecture notes and code as well as links to 
 
 <a href="https://schdscourseukzn.github.io/PDFLectures/day_02_lab2.Rmd" download> Lab 2 </a> <br>
 
-<!--
 <a href="https://schdscourseukzn.github.io/PDFLectures/day_02_lab1_solutions.Rmd" download> Lab 1 Solutions </a> <br>
+<!--
 <a href="https://schdscourseukzn.github.io/PDFLectures/day_02_lab2_solutions.Rmd" download> Lab 1 Solutions </a> <br>
 -->
 
