@@ -161,31 +161,13 @@ Below you'll find a list of links to lecture notes and code as well as links to 
 <a href="https://schdscourseukzn.github.io/PDFLectures/day_03_lecture2.Rmd" download> lecture 2 - Dr. Gabriel Kallah-Dagadu </a> <br>
 
 <a href="https://schdscourseukzn.github.io/PDFLectures/day_03_lab1.zip" download> Lab </a> <br>
-<!--
-<a href="https://schdscourseukzn.github.io/PDFLectures/day_03_lecture3.Rmd" download> lecture 3 - Dr. Gabriel Kallah-Dagadu </a> <br>
--->
-<!--
+
+
 <h4> Day 4:</h4>
 
-<a href="https://hscourseukzn.github.io/PDFLectures/System thinking in Healthcare Management2.pdf" download> System thinking in Healthcare Management - Dr. Avashri </a> <br>
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_03_lecture3.zip" download> lecture 1 - Dr. Gabriel Kallah-Dagadu </a> <br>
 
-<a href="https://hscourseukzn.github.io/PDFLectures/LEADERSHIP IN HEALTHCARE.pdf" download> LEADERSHIP IN HEALTHCARE - Dr. Avashri </a> <br>
-
-<a href="https://hscourseukzn.github.io/PDFLectures/MONITORING AND EVALUATION- 2022 (1).pdf" download> MONITORING AND EVALUATION- 2022 - Dr. Avashri </a> <br>
-
-<h5>Groups Presentations</h5>
-
-<a href="https://hscourseukzn.github.io/PDFLectures/Data science QIP vino.pdf" download> Data science QIP - [Dennis - Vincent - Jeroen - Vino] </a> <br>
-
-<a href="https://hscourseukzn.github.io/PDFLectures/ReproHealth_Revive_2023.pdf" download> ReproHealth_Revive_2023 - [Zakia Salod - Castory Munishi - Ayogeboh Epizitone - Khanyisile Nene] </a> <br>
-
-<a href="https://hscourseukzn.github.io/PDFLectures/Health_Horizons_India_2023.pdf" download> Health_Horizons_India_2023 - [Zakia Salod - Nonjabulo Gwala - Castory Munishi - Jeroen Van Lobenstein] </a> <br>
-
-<a href="https://hscourseukzn.github.io/PDFLectures/NCD_ Slides.pdf" download> NCD - [Rebecca - Yakubu - Nonjabulo - Amos] </a> <br>
-
-<a href="https://hscourseukzn.github.io/PDFLectures/Immunisation Group3.pdf" download> Immunisation - [Andile Dlamini - Alex Mutebe - Enock Mwizerwa] </a> <br>
-
-
+<!--
 <h4> Day 5:</h4>
 
 <a href="https://hscourseukzn.github.io/PDFLectures/Fundamentals of R.zip" download> Fundamentals of R - Dr. Mohanad</a> <br>
