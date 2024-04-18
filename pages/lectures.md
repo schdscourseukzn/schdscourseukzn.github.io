@@ -170,6 +170,10 @@ Below you'll find a list of links to lecture notes and code as well as links to 
 
 <a href="https://schdscourseukzn.github.io/PDFLectures/day_03_lecture3.zip" download> lecture 1 - Dr. Gabriel Kallah-Dagadu </a> <br>
 
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_04_lecture1.Rmd" download> lecture 2 - Dr. Mohanad Mohammed </a> <br>
+
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_04_case_study1.Rmd" download> Vaccines Case Study </a> <br>
+
 <!--
 <h4> Day 5:</h4>
 
