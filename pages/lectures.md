@@ -179,7 +179,7 @@ Below you'll find a list of links to lecture notes and code as well as links to 
 
 <h4> Day 5:</h4>
 
-<a href="https://hscourseukzn.github.io/PDFLectures/day_05_case_study_covid19.zip" download> Mini Project - Participants </a> <br>
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_05_case_study_covid19.zip" download> Mini Project - Participants </a> <br>
 
 <!--
 <h4> Day 6:</h4>
