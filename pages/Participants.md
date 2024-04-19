@@ -10,6 +10,6 @@ Email: <a href="mailto:ninza.sheyo@gmail.com">mailto:ninza.sheyo@gmail.com</a> <
 
 <h4 style="color:DodgerBlue;"> Mthobisi	Zondi,  Postgraduate Student in Statistics, University of KwaZulu-Natal </h4> 
 Email: <a href="mailto:mm.zondi3@gmail.com">mailto:mm.zondi3@gmail.com</a> <br>
-<p align="justify"> <img src="../figures/Ninza_Sheyo.jpg" alt="Zondi" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> During my time at CAPRISA, I worked on multi-country research and assisted with data analysis for different academic goals. I also gave lectures at DUT, teaching business statistics and mathematics. Throughout my postgraduate studies, I functioned as a demonstrator, and my thesis resulted in two research articles. <br>
+<p align="justify"> <img src="../figures/Mthobisi_Zondi.jpg" alt="Zondi" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> During my time at CAPRISA, I worked on multi-country research and assisted with data analysis for different academic goals. I also gave lectures at DUT, teaching business statistics and mathematics. Throughout my postgraduate studies, I functioned as a demonstrator, and my thesis resulted in two research articles. <br>
 <h4>Research Interest: </h4>Child's health, longitudinal data, country variability.
 
