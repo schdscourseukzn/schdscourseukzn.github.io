@@ -21,7 +21,7 @@ Email: <a href="mailto:Usamhussen@gmail.com">Usamhussen@gmail.com</a> <br>
 
 <h4 style="color:DodgerBlue;"> Ntandokayise Makhathini, Postgraduate Student, University of KwaZulu-Natal </h4> 
 Email: <a href="mailto:ntandoleonex@gmail.com">ntandoleonex@gmail.com</a> <br>
-<p align="justify"> <img src="../figures/Ntandokayise_Makhathini.jpg" alt="Makhathini" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Ntandokayise Makhathini is passionate about understanding wildlife and freshwater ecology, I find joy in exploring their intricate workings. My outgoing personality drives me to engage with new people, sharing enriching experiences. Traveling the world broadens my horizons, allowing me to immerse myself in diverse cultures and landscapes, constantly seeking inspiration. <br>
+<p align="justify"> <img src="../figures/Leonex_Ntando.jpeg" alt="Makhathini" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Ntandokayise Makhathini is passionate about understanding wildlife and freshwater ecology, I find joy in exploring their intricate workings. My outgoing personality drives me to engage with new people, sharing enriching experiences. Traveling the world broadens my horizons, allowing me to immerse myself in diverse cultures and landscapes, constantly seeking inspiration. <br>
 <b>Research Interest: </b> Inland-fisheries, ecology ,fish. </span> </p> <br>
 
 <h4 style="color:DodgerBlue;"> Bernard Obo Essah, Lecturer, Koforidua Technical University </h4> 
