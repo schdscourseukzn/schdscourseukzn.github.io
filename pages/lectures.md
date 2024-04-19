@@ -174,6 +174,8 @@ Below you'll find a list of links to lecture notes and code as well as links to 
 
 <a href="https://schdscourseukzn.github.io/PDFLectures/day_04_case_study1.Rmd" download> Vaccines Case Study </a> <br>
 
+<a href="https://schdscourseukzn.github.io/PDFLectures/day_04_case_study1_solutions.Rmd" download> Vaccines Case Study Solutions </a> <br>
+
 
 <h4> Day 5:</h4>
 
