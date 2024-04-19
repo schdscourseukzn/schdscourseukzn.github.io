@@ -29,6 +29,20 @@ Email: <a href="mailto:oboessah@gmail.com">oboessah@gmail.com</a> <br>
 <p align="justify"> <img src="../figures/Bernard.jpg" alt="Bernard" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Bernard is a self-motivated young person, who sees the problems of the world as opportunities. He feels comfortable with his identity and has a strong sense that his environment is comprised of clear, logical, and consistent rules and features. He hold a HND, BSc, MPhil. all in (Statistics) and has applied for a PhD In Applied Mathematics  with specialization in Data Science. He is into statistical programming with R and Python and loves educating, research, and counseling. His major academic area is Mathematical Science [Applied Mathematics and Statistics in Big Data Science Technology]. <br>
 <b>Research Interest: </b> Applied Mathematics; Health & Data Science Statistics; Education Research. </span> </p> <br>
 
+<h4 style="color:DodgerBlue;"> Sarah Ogutu, Postgraduate Student, University of KwaZulu-Natal </h4> 
+Email: <a href="mailto:ogutusarah@gmail.com">ogutusarah@gmail.com</a> <br>
+<p align="justify"> <img src="../figures/Sarah_Ogutu.jpg" alt="Sarah" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Sarah is a young, ambitious, and passionate statistics PhD researcher specializing in health data analysis, focusing on Infectious Diseases and Biostatistics methodologies. Her current project is machine learning for complex high-dimensional longitudinal and survival health data. She holds an MSc. in Statistics and is eager to network and collaborate on impactful public health projects with innovative research practices. <br>
+<b>Research Interest: </b> Survival analysis; longitudinal analysis; machine learning. </span> </p> <br>
+
+<h4 style="color:DodgerBlue;"> Adikwor Ewoenam Puplampu, Postgraduate Student, School of Public Health (UG-SPH), University of Ghana </h4> 
+Email: <a href="mailto:aepuplampu@gmail.com">aepuplampu@gmail.com</a> <br>
+<p align="justify"> <img src="../figures/ADIKWOR_PUPLAMPU.jpeg" alt="Sarah" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Adikwor Ewoenam Puplampu is deeply engaged in the exploration of critical health issues as a PhD candidate at the UG-SPH, Ghana. Her academic journey is complemented by her role as a research officer at the Sweden Ghana Medical Centre, where she actively contributes to advancing healthcare solutions by teaching and coordinating research activities. <br>
+<b>Research Interest: </b> Surveys and general data analysis, health data management, survival analysis. </span> </p> <br>
+
+<h4 style="color:DodgerBlue;"> Michael Msangawale, Postgraduate Student, University of KwaZulu-Natal </h4> 
+Email: <a href="mailto:mmsangawale@blood.ac.tz">mmsangawale@blood.ac.tz</a> <br>
+<p align="justify"> <img src="../figures/Michael_Msangawale.jpg" alt="Sarah" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Michael Msangawale is a data manager with a background in information system and network engineering. He is passionate about using technology to optimize processes and drive efficiency. In addition, he is dedicated to translating data into actionable insights for decision-making. <br>
+<b>Research Interest: </b> Sickle cell disease; big data; electronic health records; clinical trials; patient registries; health disparities; data integration; data sharing; data security; informed consent; data governance; data quality assurance. </span> </p> <br>
 
 
 
