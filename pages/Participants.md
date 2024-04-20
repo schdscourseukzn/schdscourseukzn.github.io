@@ -43,5 +43,15 @@ Email: <a href="mailto:mmsangawale@blood.ac.tz">mmsangawale@blood.ac.tz</a> <br>
 <p align="justify"> <img src="../figures/Michael_Msangawale.jpg" alt="Sarah" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Michael Msangawale is a data manager with a background in information system and network engineering. He is passionate about using technology to optimize processes and drive efficiency. In addition, he is dedicated to translating data into actionable insights for decision-making. <br>
 <b>Research Interest: </b> Sickle cell disease; big data; electronic health records; clinical trials; patient registries; health disparities; data integration; data sharing; data security; informed consent; data governance; data quality assurance. </span> </p> <br>
 
+<h4 style="color:DodgerBlue;"> Rehema Shungu, Postgraduate Student, Muhimbili University of Health and Allied Sciences </h4> 
+Email: <a href="mailto:rshungu08@gmail.com">rshungu08@gmail.com</a> <br>
+<p align="justify"> <img src="../figures/Rehema_Shungu.jpg" alt="Rehema" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Rehema Shungu holds a Bachelor's in Biotechnology and Laboratory Science, she transitioned to Data Science, currently pursuing a Master's degree. Over two years, she has worked as a Bioinformatician/Data Analyst, specializing in biological datasets and clinical information analysis. Moreover, she passionate about leveraging data for impactful insights. <br>
+<b>Research Interest: </b> Data science; machine learning; public health. </span> </p> <br>
+
+<h4 style="color:DodgerBlue;"> Kwena Tlhaku, Postgraduate Student, Discipline of Public Health, University of KwaZulu-Natal  </h4> 
+Email: <a href="mailto:217003232@Stuu.ukzn.ac.za">217003232@Stuu.ukzn.ac.za</a> <br>
+<p align="justify"> <img src="../figures/Kwena_Tlhaku.jpg" alt="Kwena" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Kwena Rayneth Tlhaku is an ambitious and dedicated social science researcher with a background in Social Work. She works as a study coordinator at CAPRISA's HIV Vaccines and Pathogenesis department, focusing on strengthening health systems through audit and programmatic data evaluation. She is also PhD research fellow at CAPRISA, contributing to advancements in public health. <br>
+<b>Research Interest: </b> Public Health; Epidemiology; HIV/AIDS. </span> </p> <br>
+
 
 
