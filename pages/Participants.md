@@ -63,5 +63,9 @@ Email: <a href="mailto:joyce.adidja@gmail.com">joyce.adidja@gmail.com</a> <br>
 <p align="justify"> <img src="../figures/JA.jpg" alt="Joyce" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Joyce Adidja is a medical doctor who graduated from Université Catholique de Bukavu (UCB). Researcher at center for tropical disease and Global Health/UCB/BUKQVU-DRC.She is interested clinical research, with a particular interest in vaccinology. Adidja's expertise addresses pressing public health challenges in the region. <br>
 <b>Research Interest: </b> Vaccinology; VIH/TB; Clinical Research. </span> </p> <br>
 
+<h4 style="color:DodgerBlue;"> Moses Okpeku, Discipline of genetics at the University of Kwazulu-Nata  </h4> 
+Email: <a href="mailto:OkpekuM@ukzn.ac.za">OkpekuM@ukzn.ac.za</a> <br>
+<p align="justify"> <img src="../figures/JA.jpg" alt="Joyce" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Moses Okpeku is a faculty in the discipline of genetics at the University of Kwazulu-Nata. His research focus is in genetics, genomics, and bioinformatics. His research spans genomics, quantitative genetics, biostatistics, and livestock production. Noteworthy contributions include studies on Apicomplexan genetics, human microbiome analysis for forensics, and extending China's malaria elimination efforts to Africa. He also organizes workshops for mathematical and bioinformatics training, demonstrating his dedication to advancing these disciplines. </span> </p> <br>
+
 
 
