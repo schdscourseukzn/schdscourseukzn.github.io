@@ -58,9 +58,9 @@ Email: <a href="mailto:sam.p.ngcobo@gmail.com">sam.p.ngcobo@gmail.com</a> <br>
 <p align="justify"> <img src="../figures/Samke_Ngcobo.jpg" alt="Samkelisiwe" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Samkelisiwe Ngcobo is a postdoctoral research fellow at the University of KwaZulu-Natal (UKZN), her passion for animals and the natural world fuels her pursuit of ecological understanding. Driven by this passion, her research focuses on the complex dynamics of human-wildlife conflicts amplified by anthropogenic change, particularly within urban ecosystems. Through this work, she seeks to contribute to wildlife conservation in these rapidly changing environments. <br>
 <b>Research Interest: </b> Anthropogenic changes; conservation; biodiversity; urban ecology. </span> </p> <br>
 
-<h4 style="color:DodgerBlue;"> Joyce Adidja, Researcher at center for tropical disease and Global Health/UCB/BUKQVU-DRC  </h4> 
+<h4 style="color:DodgerBlue;"> Joyce Adidja, Researcher at center for tropical disease and Global Health/UCB/BUKAVU-DRC  </h4> 
 Email: <a href="mailto:joyce.adidja@gmail.com">joyce.adidja@gmail.com</a> <br>
-<p align="justify"> <img src="../figures/JA.jpg" alt="Joyce" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Joyce Adidja is a medical doctor who graduated from Université Catholique de Bukavu (UCB). Researcher at center for tropical disease and Global Health/UCB/BUKQVU-DRC.She is interested clinical research, with a particular interest in vaccinology. Adidja's expertise addresses pressing public health challenges in the region. <br>
+<p align="justify"> <img src="../figures/JA.jpg" alt="Joyce" style="float:left; width:100px; height:100px; padding: 10px;"><span style="vertical-align:bottom"> Joyce Adidja is a medical doctor who graduated from Université Catholique de Bukavu (UCB). Researcher at center for tropical disease and Global Health/UCB/BUKAVU-DRC.She is interested clinical research, with a particular interest in vaccinology. Adidja's expertise addresses pressing public health challenges in the region. <br>
 <b>Research Interest: </b> Vaccinology; VIH/TB; Clinical Research. </span> </p> <br>
 
 <h4 style="color:DodgerBlue;"> Moses Okpeku, Discipline of genetics at the University of Kwazulu-Nata  </h4> 
